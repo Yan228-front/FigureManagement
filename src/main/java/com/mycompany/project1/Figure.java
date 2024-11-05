@@ -10,10 +10,6 @@ package com.mycompany.project1;
  */
 public abstract class Figure {
 
-    Figure(Figure... figures) {
-
-    }
-
     public abstract void movementAroundItsAxis();
 
     public void moveLeft() {

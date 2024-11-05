@@ -7,13 +7,16 @@ public class Project1 {
 
     public static void main(String[] args) {
 
-        StraightLine straightLine = new StraightLine();
-        Square square = new Square();
-        Lightning lightning = new Lightning();
+//        StraightLine straightLine = new StraightLine();
+//        Square square = new Square();
+//        Lightning lightning = new Lightning();
+//
+//        Figure arrFigures[] = {straightLine, square, lightning};
 
-        Figure arrFigures[] = {straightLine, square, lightning};
+       FigureArrayCreator figureCreator = new FigureArray();
+       Figure[] figures = figureCreator.createFigureArray();
 
-        for (Figure figure : arrFigures) {
+        for (Figure figure : figures) {
             System.out.println("*****");
             figure.moveLeft();//движение влево
             figure.moveRight();//движение вправо

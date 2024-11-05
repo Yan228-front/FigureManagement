@@ -1,5 +1,7 @@
 com\mycompany\project1\Lightning.class
 com\mycompany\project1\StraightLine.class
-com\mycompany\project1\Project1.class
 com\mycompany\project1\Figure.class
 com\mycompany\project1\Square.class
+com\mycompany\project1\FigureArray.class
+com\mycompany\project1\Project1.class
+com\mycompany\project1\FigureArrayCreator.class
