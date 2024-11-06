@@ -9,7 +9,11 @@ package com.mycompany.project1;
  * @author LOQ
  */
 public interface FigureArrayCreator {
-    
-    Figure[] createFigureArray(); 
-    
+
+    Figure[] createFigureArray();
+
+    static FigureArrayCreator createInstance() {
+        return new FigureArray();
+    }
+
 }

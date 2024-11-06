@@ -7,13 +7,7 @@ public class Project1 {
 
     public static void main(String[] args) {
 
-//        StraightLine straightLine = new StraightLine();
-//        Square square = new Square();
-//        Lightning lightning = new Lightning();
-//
-//        Figure arrFigures[] = {straightLine, square, lightning};
-
-       FigureArrayCreator figureCreator = new FigureArray();
+       FigureArrayCreator figureCreator = FigureArrayCreator.createInstance();
        Figure[] figures = figureCreator.createFigureArray();
 
         for (Figure figure : figures) {
